@@ -1,0 +1,17 @@
+{
+  "machineFunction": [
+    {
+      "serviceAffix": "<service>",
+      "role": "FD",
+      "oostype": "html",
+      "isoos": false,
+      "healthCheckUrl": "http://[REPLACEME]/health",
+      "requiredMachinesHealthyToPatch": "",
+      "failingMachineLimit": "33",
+      "drainTimeInMinutes": 30,
+      "servers": [
+        "<machinename>"
+      ]
+    }
+  ]
+}
